@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Node.JS webscraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipbankier/Node-webscraper.git"
+  },
+  "author": "",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "node-fetch": "^1.7.3",
+    "prettyjson": "^1.2.1",
+    "request": "^2.81.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipbankier/Node-webscraper/issues"
+  },
+  "homepage": "https://github.com/philipbankier/Node-webscraper#readme",
+  "devDependencies": {}
+}
