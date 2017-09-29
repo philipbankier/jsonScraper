@@ -1,6 +1,7 @@
 var express = require('express');
 var app     = express();
 var fetch = require('node-fetch');
+var port = process.env.PORT || 5000;
 
 app.get('/scrape', function(req, res){
 
@@ -14,7 +15,7 @@ app.get('/scrape', function(req, res){
     }).catch(err => console.error(err));
 })
 
-app.listen('8081')
-console.log('Magic happening on port 8081');
+// start the server
+app.listen(port);
+console.log('Server started! At http://localhost:' + port);
 exports = module.exports = app;
-
